@@ -8,6 +8,8 @@ RED = (255, 0, 0)
 YELLOW = (255, 255, 0)
 GREEN = (0, 255, 120)
 
+#testinngggg
+
 #Functions
 def event_loop():
     global again, in_action, in_action_bis, nu_head_position, program
