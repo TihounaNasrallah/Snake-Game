@@ -57,7 +57,7 @@ def update():
     # when the snake moves normally
     if nu_head_position != food_position:
         snake_positions.pop(-1)
-        score += 1
+        #score += 1
 
         snake_positions.insert(0, list(nu_head_position))
 
