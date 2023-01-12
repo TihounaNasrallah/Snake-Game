@@ -151,7 +151,7 @@ while again:
     pygame.init()
     # Screen Creation
     screen = pygame.display.set_mode((500, 500))
-    pygame.display.set_caption("Hiba's Snake Game")
+    pygame.display.set_caption("Snake Game")
 
     score_zone = pygame.draw.rect(screen, (GREEN), Rect(0, 0, 500, 100), 1)
     score = 0
