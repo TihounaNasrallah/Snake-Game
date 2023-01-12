@@ -8,7 +8,7 @@ RED = (255, 0, 0)
 YELLOW = (255, 255, 0)
 GREEN = (0, 255, 120)
 
-#testinngggg
+
 
 #Functions
 def event_loop():
@@ -151,7 +151,7 @@ while again:
     pygame.init()
     # Screen Creation
     screen = pygame.display.set_mode((500, 500))
-    pygame.display.set_caption("Hiba's Snake Game")
+    pygame.display.set_caption("Snake Game")
 
     score_zone = pygame.draw.rect(screen, (GREEN), Rect(0, 0, 500, 100), 1)
     score = 0
